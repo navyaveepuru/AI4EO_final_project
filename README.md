@@ -1,5 +1,5 @@
 # AI4EO_final_project
-The final assignment (50%) for GEOL0069.
+Created for the final assignment (50%) for GEOL0069 at University College London. By Navya Veepuru, SN: 22060262.
 
 ![Example of satellite, NDWI and water mask maps produced](https://github.com/user-attachments/assets/6c95d3fd-6b52-4242-ac18-8fbe62d4b67a)
 
@@ -17,7 +17,7 @@ This is where machine learning and remote sensing offer transformative potential
 
 ### Sentinel-2 Imagery
 
-<img width="532" alt="Image" src="https://github.com/user-attachments/assets/b4d3d0fc-f929-40f9-856f-7bc3e5ff763a" />
+<img width="532" alt="Figure describing how S2 imagery works" src="https://github.com/user-attachments/assets/b4d3d0fc-f929-40f9-856f-7bc3e5ff763a" />
 
 The Sentinel-2 mission, part of the European Union’s Copernicus Programme, consists of a pair of satellites—Sentinel-2A and Sentinel-2B—equipped with the MultiSpectral Instrument (MSI), which captures Earth’s surface in 13 spectral bands ranging from visible to short-wave infrared at varying spatial resolutions (10 m, 20 m, and 60 m) (Drusch et al., 2012). The high revisit frequency (every 5 days at the equator) and rich spectral data make Sentinel-2 especially suitable for environmental monitoring applications, including inland water detection. In this context, we use the bands Green (Band 3), Near-Infrared (Band 8), and Short-Wave Infrared (Band 11) to calculate the Normalized Difference Water Index (NDWI), which enhances the contrast between water bodies and other land features (McFeeters, 1996). The NDWI index can therefore be used to produce very accurate water masks (which detect which areas are water and which areas are land) for the region. This provides the basis to create both training data for the supervised models, and a 'correct' water mask for the test data that we can compare the model results to (ie. we are checking how close the model prediction is to the NDWI result; the closer the prediction, the more accurate the model is assessed to be).
 
@@ -31,7 +31,7 @@ Random forest is an ensemble-based supervised learning algorithm that constructs
 
 ### Unsupervised Learning: K-Means Clustering
 
-<img width="507" alt="Image" src="https://github.com/user-attachments/assets/c5f9e747-db90-4797-8fae-ab70bfe7accc" />
+<img width="507" alt="Figure describing how the unsupervised techniques used work" src="https://github.com/user-attachments/assets/c5f9e747-db90-4797-8fae-ab70bfe7accc" />
 
 K-means is an unsupervised learning algorithm that partitions data into a predefined number of clusters by minimizing the variance within each cluster (MacQueen, 1967). When applied to satellite imagery, pixel values (e.g., RGB reflectance or NDWI values) are grouped into clusters based on spectral similarity.
 
