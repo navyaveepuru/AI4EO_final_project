@@ -47,6 +47,8 @@ Canva, 2025. Canva [online graphic design tool]. Available at: https://www.canva
 
 Drusch, M., Del Bello, U., Carlier, S., Colin, O., Fernandez, V., Gascon, F., Hoersch, B., Isola, C., Laberinti, P., Martimort, P. and Meygret, A., 2012. Sentinel-2: ESA’s optical high-resolution mission for GMES operational services. Remote Sensing of Environment, 120, pp.25–36.
 
+Hanna, Mel., 2022. Tracking Emissions from ML Models (Revised). [online] Google Colaboratory. Available at: https://colab.research.google.com/github/climatechange-ai-tutorials/tracking-ml-emissions/blob/main/Tracking_Emissions_from_ML_Models_%28Revised%29.ipynb [Accessed 18 May 2025].
+
 Hosmer, D.W., Lemeshow, S. and Sturdivant, R.X., 2013. Applied Logistic Regression. 3rd ed. Hoboken: Wiley.
 
 IPCC, 2021. Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change. Cambridge: Cambridge University Press. Available at: https://www.ipcc.ch/report/ar6/wg1/ [Accessed 18 May 2025].
