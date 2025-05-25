@@ -68,10 +68,6 @@ Furthermore, when comparing the techniques used, it was found that unsupervised 
 
 Another way to further mitigate environmental impact is by running code in regions powered by renewable energy to significantly cut emissions. The CodeCarbon csv output files show that when I ran this code (May 2025), the servers used to run it were located in The Netherlands (europe-west4 on Google Cloud). This is a relatively sustainable option for cloud computing, benefiting from carbon-aware scheduling and a growing share of renewable energy. However, it is not as environmentally optimal as regions like Finland or Sweden, which operate on grids powered largely by clean energy sources such as hydroelectricity. For minimizing carbon emissions, choosing data center regions in Northern Europe and Northeast North America—such as Google Cloud’s Finland (europe-north1) offers a greener alternative. For example, Finland's grid carbon intensity (gCO2eq/kWh) is over 5x lower than The Netherland's (Google Cloud, 2023). Within Colab Enterprise, you can choose the region where your Colab notebook and its associated runtime are located; however, this requires purchasing Colab Pro, so is a less accessible option.
 
-Limiting the number of training iterations and using early stopping techniques can also prevent unnecessary energy use. In this code, much of the emissions are due to the 5-fold CV calculations iterating over the model algorithms. However, this is a one-time calaculation and is justified as it is an excellent metric to compare the supervised learning techniques. 
-
-Overall, incorporating these practices supports more environmentally responsible AI development.
-
 ## For an explanation of what the results suggest about the machine learning techniques and which algorithm is the best, please refer to the text in the Google Colab file.
 
 ## References
