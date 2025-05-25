@@ -54,6 +54,12 @@ K-means is an unsupervised learning algorithm that partitions data into a predef
 
 For inland water body detection, a K-means model with 𝑘=2 can be used to segment pixels into water and non-water classes without requiring labeled training data. While less accurate than supervised methods due to lack of ground truth guidance, K-means can be useful in rapid assessments or regions lacking labeled datasets (Pekel et al, 2016).
 
+## Environmental cost of this research project
+
+We are using the CodeCarbon Python library to track the environmental cost of this code. CodeCarbon is a lightweight, open-source Python library designed to estimate the carbon footprint of code execution. By tracking the energy consumed by computing resources (CPU, GPU, RAM) and considering the location’s energy grid carbon intensity, CodeCarbon provides an estimate of the environmental impact of running a particular script or model (Hanna, 2022). This is especially useful for tracking and comparing the CO2 emissions of the different machine learning algorithms we use in this project, as training models can be computationally intensive. 
+
+## For an explanation of what the results suggest about the machine learning techniques and which algorithm is the best, please refer to the text in the Google Colab file.
+
 ## References
 
 Belgiu, M. and Drăguţ, L., 2016. Random forest in remote sensing: A review of applications and future directions. ISPRS Journal of Photogrammetry and Remote Sensing, 114, pp.24–31. Available at: https://doi.org/10.1016/j.isprsjprs.2016.01.011
