@@ -29,6 +29,8 @@ Random forest is an ensemble-based supervised learning algorithm that constructs
 
 ### Unsupervised Learning: K-Means Clustering
 
+<img width="507" alt="Image" src="https://github.com/user-attachments/assets/c5f9e747-db90-4797-8fae-ab70bfe7accc" />
+
 K-means is an unsupervised learning algorithm that partitions data into a predefined number of clusters by minimizing the variance within each cluster (MacQueen, 1967). When applied to satellite imagery, pixel values (e.g., RGB reflectance or NDWI values) are grouped into clusters based on spectral similarity.
 
 For inland water body detection, a K-means model with 𝑘=2 can be used to segment pixels into water and non-water classes without requiring labeled training data. While less accurate than supervised methods due to lack of ground truth guidance, K-means can be useful in rapid assessments or regions lacking labeled datasets (Pekel et al, 2016).
