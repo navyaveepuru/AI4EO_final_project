@@ -17,6 +17,8 @@ This is where machine learning and remote sensing offer transformative potential
 
 ### Sentinel-2 Imagery
 
+<img width="532" alt="Image" src="https://github.com/user-attachments/assets/b4d3d0fc-f929-40f9-856f-7bc3e5ff763a" />
+
 The Sentinel-2 mission, part of the European Union’s Copernicus Programme, consists of a pair of satellites—Sentinel-2A and Sentinel-2B—equipped with the MultiSpectral Instrument (MSI), which captures Earth’s surface in 13 spectral bands ranging from visible to short-wave infrared at varying spatial resolutions (10 m, 20 m, and 60 m) (Drusch et al., 2012). The high revisit frequency (every 5 days at the equator) and rich spectral data make Sentinel-2 especially suitable for environmental monitoring applications, including inland water detection. In this context, we use the bands Green (Band 3), Near-Infrared (Band 8), and Short-Wave Infrared (Band 11) to calculate the Normalized Difference Water Index (NDWI), which enhances the contrast between water bodies and other land features (McFeeters, 1996). The NDWI index can therefore be used to produce very accurate water masks (which detect which areas are water and which areas are land) for the region. This provides the basis to create both training data for the supervised models, and a 'correct' water mask for the test data that we can compare the model results to (ie. we are checking how close the model prediction is to the NDWI result; the closer the prediction, the more accurate the model is assessed to be).
 
 ### Supervised Learning: Logistic Regression and Random Forest
